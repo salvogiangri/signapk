@@ -18,7 +18,3 @@ dependencies {
 application {
     mainClass.set("com.android.signapk.SignApk")
 }
-
-tasks.shadowJar {
-    minimize()
-}
