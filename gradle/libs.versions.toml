@@ -1,0 +1,18 @@
+[versions]
+# Shadow: https://github.com/GradleUp/shadow
+shadow = "8.3.6"
+# apksig: https://android.googlesource.com/platform/tools/apksig/+/refs/heads/main/README.md
+apksig = "8.9.0"
+# Bouncy Castle: https://www.bouncycastle.org/
+bouncycastle = "1.80"
+# Conscrypt: https://github.com/google/conscrypt
+conscrypt = "2.5.2"
+
+[libraries]
+apksig = { group = "com.android.tools.build", name = "apksig", version.ref = "apksig" }
+bcprov = { group = "org.bouncycastle", name = "bcprov-jdk18on", version.ref = "bouncycastle" }
+bcpkix = { group = "org.bouncycastle", name = "bcpkix-jdk18on", version.ref = "bouncycastle" }
+conscrypt = { group = "org.conscrypt", name = "conscrypt-openjdk-uber", version.ref = "conscrypt" }
+
+[plugins]
+shadow = { id = "com.gradleup.shadow", version.ref = "shadow" }

@@ -1,0 +1,4 @@
+[submodule "external/platform_build"]
+	shallow = true
+	path = external/platform_build
+	url = https://android.googlesource.com/platform/build.git
