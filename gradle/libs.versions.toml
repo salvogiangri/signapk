@@ -2,7 +2,7 @@
 # Shadow: https://github.com/GradleUp/shadow
 shadow = "9.0.2"
 # apksig: https://android.googlesource.com/platform/tools/apksig/+/refs/heads/main/README.md
-apksig = "8.9.0"
+apksig = "8.12.1"
 # Bouncy Castle: https://www.bouncycastle.org/
 bouncycastle = "1.81"
 # Conscrypt: https://github.com/google/conscrypt
