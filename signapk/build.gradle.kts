@@ -18,3 +18,9 @@ dependencies {
 application {
     mainClass.set("com.android.signapk.SignApk")
 }
+
+tasks {
+    named<com.github.jengelman.gradle.plugins.shadow.tasks.ShadowJar>("shadowJar") {
+        addMultiReleaseAttribute = false
+    }
+}
