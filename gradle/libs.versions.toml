@@ -4,7 +4,7 @@ shadow = "9.1.0"
 # apksig: https://android.googlesource.com/platform/tools/apksig/+/refs/heads/main/README.md
 apksig = "8.12.1"
 # Bouncy Castle: https://www.bouncycastle.org/
-bouncycastle = "1.81"
+bouncycastle = "1.82"
 # Conscrypt: https://github.com/google/conscrypt
 conscrypt = "2.5.2"
 
