@@ -1,6 +1,6 @@
 [versions]
 # Shadow: https://github.com/GradleUp/shadow
-shadow = "9.1.0"
+shadow = "9.2.2"
 # apksig: https://android.googlesource.com/platform/tools/apksig/+/refs/heads/main/README.md
 apksig = "8.12.1"
 # Bouncy Castle: https://www.bouncycastle.org/
